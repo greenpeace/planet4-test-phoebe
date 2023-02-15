@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-master-theme": "dev-replace-covers-block-with-query-loop",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
+		"greenpeace/planet4-plugin-gutenberg-blocks": "PLANET-7007_replace-covers-block-with-query-loop"
 	},
 	"scripts": {},
 	"repositories": [
