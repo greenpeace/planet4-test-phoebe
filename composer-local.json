@@ -3,47 +3,7 @@
 	"description": "Greenpeace P4 test-phoebe",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "7",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
-	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/316e7bb1226c4535954bb795cc3a4ec4100bc37d.zip"
-				}
-			}
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-master-theme",
-				"type": "wordpress-theme",
-				"autoload": {
-					"psr-4": {
-						"P4\\MasterTheme\\": "src/"
-					}
-				},
-				"extra": {
-					"installer-paths": {
-						"vendor/plugins/{$name}/": [
-							"type:wordpress-plugin"
-						]
-					}
-				},
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/12f9c1d73d4d1a9d1ef700b4019ef0487b1d8367.zip"
-				}
-			}
-		}
-	]
+		"greenpeace/planet4-master-theme": "dev-main",
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-main"
+	}
 }
